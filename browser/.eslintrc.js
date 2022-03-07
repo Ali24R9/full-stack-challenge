@@ -7,22 +7,19 @@ module.exports = {
     "parserOptions": {
         "sourceType": "module"
     },
+    "extends": ["plugin:vue/base"],
     "rules": {
         "indent": [
-            "error",
-            "tab"
+            "off"
         ],
         "linebreak-style": [
-            "error",
-            "unix"
+            "off"
         ],
         "quotes": [
-            "error",
-            "double"
+            "off"
         ],
         "semi": [
-            "error",
-            "never"
+            "off"
         ]
-    }
+    },
 };
